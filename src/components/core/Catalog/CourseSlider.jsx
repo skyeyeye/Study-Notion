@@ -11,9 +11,8 @@ import "swiper/css/pagination"
 import { FreeMode, Pagination } from "swiper"
 
 // import { getAllCourses } from "../../services/operations/courseDetailsAPI"
-import Course_Card from "./Course_Card"
-
-function Course_Slider({ Courses }) {
+import CourseCard from "./CourseCard"
+function CourseSlider({ Courses }) {
   return (
     <>
       {Courses?.length ? (
@@ -42,4 +41,4 @@ function Course_Slider({ Courses }) {
   )
 }
 
-export default Course_Slider
+export default CourseSlider
